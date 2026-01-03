@@ -23,7 +23,7 @@ def lambda_handler(event, context):
         return {
             "statusCode": 200,
             "body": json.dumps({
-                "message": "iPhone 17 reserved successfully"
+                "message": "iPhone 17 purchased successfully"
             })
         }
 
